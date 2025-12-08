@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Login from "@/views/Login.vue";
-import Home from "@/views/Home.vue";
+import Login from "@/views/LoginView.vue";
+import Home from "@/views/HomeView.vue";
 
 const base = import.meta.env.VITE_BASE_URL || "/";
 const loginRoute = import.meta.env.VITE_API_LOGIN ;
