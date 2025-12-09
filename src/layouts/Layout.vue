@@ -1,10 +1,8 @@
 <template>
   <div class="min-h-screen flex flex-col">
 		<Header/>
-    <main class="flex-1 p-4 bg-zinc-100">
-      <div class="space-y-4 px-4 py-6">
-        <slot />
-      </div>
+    <main class="flex-1 px-8 py-6 bg-zinc-100">
+      <slot />
     </main>
 		<Footer/>
   </div>
